@@ -1,0 +1,13 @@
+{
+  "autoload": {
+    "psr-4": {
+        "McDonalds\\": "src/",
+        "McDonalds\\Drink\\": "src/Drink",
+        "McDonalds\\Food\\": "src/Food"
+    }
+  },
+  "require": {
+    "php": "^7.0",
+    "symfony/http-foundation": "^5.0"
+  }
+}
