@@ -4,7 +4,10 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9e5732d-6287-4039-930a-116b0e6d5ca7" name="Default Changelist" comment="" />
+    <list default="true" id="f9e5732d-6287-4039-930a-116b0e6d5ca7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/public/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/index.html" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,6 +86,7 @@
       <updated>1579168164769</updated>
       <workItem from="1579168166322" duration="15097000" />
       <workItem from="1579250437698" duration="11082000" />
+      <workItem from="1579273643397" duration="178000" />
     </task>
     <servers />
   </component>
