@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitd401a11c815a607f8951e638387413e4
+class ComposerStaticInit56f977239e4df855f91499a55353e35d
 {
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
@@ -26,6 +26,12 @@ class ComposerStaticInitd401a11c815a607f8951e638387413e4
             'McDonalds\\Food\\' => 15,
             'McDonalds\\Drink\\' => 16,
             'McDonalds\\' => 10,
+        ),
+        'C' => 
+        array (
+            'Controller\\FactoryMethod\\' => 25,
+            'Controller\\Entity\\' => 18,
+            'Controller\\' => 11,
         ),
     );
 
@@ -62,13 +68,25 @@ class ComposerStaticInitd401a11c815a607f8951e638387413e4
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
+        'Controller\\FactoryMethod\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/controller/FactoryMethod',
+        ),
+        'Controller\\Entity\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/controller/Entity',
+        ),
+        'Controller\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/controller',
+        ),
     );
 
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitd401a11c815a607f8951e638387413e4::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitd401a11c815a607f8951e638387413e4::$prefixDirsPsr4;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit56f977239e4df855f91499a55353e35d::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit56f977239e4df855f91499a55353e35d::$prefixDirsPsr4;
 
         }, null, ClassLoader::class);
     }

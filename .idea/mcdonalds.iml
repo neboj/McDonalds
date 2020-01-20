@@ -2,10 +2,13 @@
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/controller" isTestSource="false" packagePrefix="Controller\" />
+      <sourceFolder url="file://$MODULE_DIR$/controller/FactoryMethod" isTestSource="false" packagePrefix="Controller\FactoryMethod\" />
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" packagePrefix="McDonalds\" />
       <sourceFolder url="file://$MODULE_DIR$/src/Drink" isTestSource="false" packagePrefix="McDonalds\Drink\" />
       <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/Food" isTestSource="false" packagePrefix="McDonalds\Food\" />
+      <sourceFolder url="file://$MODULE_DIR$/controller/Entity" isTestSource="false" packagePrefix="Controller\Entity\" />
       <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/http-foundation" />

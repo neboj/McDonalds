@@ -14,4 +14,7 @@ return array(
     'McDonalds\\Food\\' => array($baseDir . '/src/Food'),
     'McDonalds\\Drink\\' => array($baseDir . '/src/Drink'),
     'McDonalds\\' => array($baseDir . '/src'),
+    'Controller\\FactoryMethod\\' => array($baseDir . '/controller/FactoryMethod'),
+    'Controller\\Entity\\' => array($baseDir . '/controller/Entity'),
+    'Controller\\' => array($baseDir . '/controller'),
 );

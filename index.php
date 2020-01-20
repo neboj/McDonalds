@@ -1,17 +1,13 @@
 <?php
 
 include 'vendor/autoload.php';
-
+define('TEMPLATE_DIR','./view/');
 //$is_ajax = 'XMLHttpRequest' == ( $_SERVER['HTTP_X_REQUESTED_WITH'] ?? '' );
-//$request = \Symfony\Component\HttpFoundation\Request::createFromGlobals();
+$request = \Symfony\Component\HttpFoundation\Request::createFromGlobals();
 
-$order = new \McDonalds\Food\Entity\Cheeseburger();
-$order = new \McDonalds\Food\Decorator\WithFries($order);
-$order = new \McDonalds\Food\Decorator\ExtraSauce($order);
+echo 'Startscript <br>';
+//$controller = new Controller\Index($request);
+$factoryMethod = new \Controller\FactoryMethod\Controller();
+$factoryMethod->make("/");
 
-$factory = new McDonalds\Drink\FactoryMethod\Drink();
-$order = $factory->make('coca');
-$order = new \McDonalds\Drink\Decorator\Lemon($order);
-
-echo $order->getDescription();
-echo $order->getPrice();
+echo 'Endscript';

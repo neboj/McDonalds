@@ -1,9 +1,12 @@
 {
   "autoload": {
     "psr-4": {
-        "McDonalds\\": "src/",
-        "McDonalds\\Drink\\": "src/Drink",
-        "McDonalds\\Food\\": "src/Food"
+      "Controller\\": "controller",
+      "Controller\\Entity\\": "controller/Entity",
+      "Controller\\FactoryMethod\\": "controller/FactoryMethod",
+      "McDonalds\\": "src/",
+      "McDonalds\\Drink\\": "src/Drink",
+      "McDonalds\\Food\\": "src/Food"
     }
   },
   "require": {
