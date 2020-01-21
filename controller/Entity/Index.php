@@ -5,7 +5,7 @@ namespace Controller\Entity;
 
 use Symfony\Component\HttpFoundation\Request;
 
-class Index extends Controller
+class Index extends AbstractController
 {
 
     public function __construct(string $tpl = '')
@@ -17,8 +17,13 @@ class Index extends Controller
         parent::__construct($this->tplName);
     }
 
-    protected function read(){
-        $order = new \McDonalds\Food\Entity\Cheeseburger();
+    /**
+     * Read method returns data to render in view.
+     * @return array
+     */
+    public function read(): array{
+        $foodFactory = new \McDonalds\Food\FactoryMethod\FactoryMethod();
+        $order = $foodFactory->make($foodFactory::FOOD_TYPE_CHEESEBURGER);
         $order = new \McDonalds\Food\Decorator\WithFries($order);
         $order = new \McDonalds\Food\Decorator\ExtraSauce($order);
 
@@ -26,12 +31,7 @@ class Index extends Controller
         $order = $factory->make('coca');
         $order = new \McDonalds\Drink\Decorator\Lemon($order);
 
-        echo '---reading ' . '/view/index.html htmlFile' . '--- <br>';
-        if (file_exists(TEMPLATE_DIR . $this->tplName)) {
-            include TEMPLATE_DIR . $this->tplName;
-        } else {
-            die('**Tpl for this file does not exist**. <br> --!File reading stopped!--.<br>--!App closed!--');
-        }
+        return ['order' => $order];
     }
 
 }

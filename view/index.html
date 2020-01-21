@@ -1,8 +1,11 @@
+<?php
+ $order = $data['order'];
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>McDonalds|Index</title>
 </head>
 <body>
     <main>
@@ -11,7 +14,6 @@
         <?php echo $order->getDescription()?><br>
         Receipt:
         <?php echo $order->getPrice(); ?><br>
-        <?php echo '--closing ./view/index.html'; ?><br>
     </main>
 
 </body>

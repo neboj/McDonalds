@@ -10,5 +10,7 @@ interface ControllerInterface
 
     public function __construct(string $tpl = '');
 
-    public function stop();
+    public  function read(): array;
+
+    public function stop(array $data);
 }
