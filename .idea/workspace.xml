@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9e5732d-6287-4039-930a-116b0e6d5ca7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/controller/Entity/AbstractController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/Entity/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/user.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/Entity/Controller.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/Entity/ControllerInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/Entity/ControllerInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/Entity/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/Entity/Index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/FactoryMethod/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/FactoryMethod/Controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Food/FactoryMethod/FactoryMethod.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Food/FactoryMethod/FactoryMethod.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -98,7 +92,7 @@
       <workItem from="1579250437698" duration="11082000" />
       <workItem from="1579273643397" duration="178000" />
       <workItem from="1579527145541" duration="8292000" />
-      <workItem from="1579594729219" duration="8837000" />
+      <workItem from="1579594729219" duration="12659000" />
     </task>
     <servers />
   </component>
@@ -134,14 +128,14 @@
       <screen x="-253" y="-1057" width="1920" height="1057" />
     </state>
     <state x="465" y="-703" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1440.827/-253.-1057.1920.1057@-253.-1057.1920.1057" timestamp="1579186340311" />
-    <state x="87" y="-1015" width="1339" height="970" key="CommitChangelistDialog2" timestamp="1579606832283">
+    <state x="87" y="-1015" width="1339" height="970" key="CommitChangelistDialog2" timestamp="1579611864322">
       <screen x="-253" y="-1057" width="1920" height="1057" />
     </state>
-    <state x="87" y="-1015" width="1339" height="970" key="CommitChangelistDialog2/0.23.1440.827/-253.-1057.1920.1057@-253.-1057.1920.1057" timestamp="1579606832283" />
-    <state x="180" y="-873" key="DiffContextDialog" timestamp="1579606782543">
+    <state x="87" y="-1015" width="1339" height="970" key="CommitChangelistDialog2/0.23.1440.827/-253.-1057.1920.1057@-253.-1057.1920.1057" timestamp="1579611864322" />
+    <state x="180" y="-873" width="1152" height="685" key="DiffContextDialog" timestamp="1579606923487">
       <screen x="-253" y="-1057" width="1920" height="1057" />
     </state>
-    <state x="180" y="-873" key="DiffContextDialog/0.23.1440.827/-253.-1057.1920.1057@-253.-1057.1920.1057" timestamp="1579606782543" />
+    <state x="180" y="-873" width="1152" height="685" key="DiffContextDialog/0.23.1440.827/-253.-1057.1920.1057@-253.-1057.1920.1057" timestamp="1579606923487" />
     <state x="495" y="-722" key="NewPhpClassDialog" timestamp="1579600938681">
       <screen x="-253" y="-1057" width="1920" height="1057" />
     </state>
@@ -170,10 +164,10 @@
     </state>
     <state x="582" y="-649" key="publish.login/0.23.1440.827/-253.-1057.1920.1057@-253.-1057.1920.1057" timestamp="1579253086748" />
     <state x="626" y="342" key="publish.login/0.23.1440.827@0.23.1440.827" timestamp="1579527383031" />
-    <state x="372" y="-824" width="670" height="710" key="search.everywhere.popup" timestamp="1579606235574">
+    <state x="372" y="-824" width="670" height="710" key="search.everywhere.popup" timestamp="1579611683234">
       <screen x="-253" y="-1057" width="1920" height="1057" />
     </state>
-    <state x="372" y="-824" width="670" height="710" key="search.everywhere.popup/0.23.1440.827/-253.-1057.1920.1057@-253.-1057.1920.1057" timestamp="1579606235574" />
+    <state x="372" y="-824" width="670" height="710" key="search.everywhere.popup/0.23.1440.827/-253.-1057.1920.1057@-253.-1057.1920.1057" timestamp="1579611683234" />
     <state x="372" y="-835" width="670" height="676" key="search.everywhere.popup/0.23.1440.877/-253.-1057.1920.1007@-253.-1057.1920.1007" timestamp="1579170405194" />
   </component>
 </project>

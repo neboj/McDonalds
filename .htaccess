@@ -4,8 +4,8 @@
 
    RewriteCond %{REQUEST_FILENAME}  -f [OR]
    RewriteCond %{REQUEST_FILENAME} !-f
-   RewriteRule ^(.*)$ index.php [L,QSA]
+   RewriteRule ^(css|images|js|fonts|public) - [L] # You can disable the rewrite for some directories by adding this rule above yours redirects
 
-#   RewriteRule ^brat/([^\./]+)\.html /view/$1.html [L]
+   RewriteRule ^(.*)$ index.php [L,QSA] # redirect pages to index to enable routing
 
 </IfModule>
